@@ -1,10 +1,10 @@
-import java.util.Scanner;
+import java.util.Scanner; //BERIKAN PENJELASAN INI APA GUNANYA..^_^
 
 public class Answer {
-	public static int c;
+	public static int c; //BERIKAN PENJELASAN INI APA GUNANYA..^_^
 	
-	public static void biografi(){
-		System.out.println("===========BIODATA==============");
+	public static void biografi(){ //BERIKAN PENJELASAN INI APA GUNANYA..^_^
+		System.out.println("===========BIODATA=============="); //BERIKAN PENJELASAN INI APA GUNANYA..^_^
 		System.out.println("Nama : Muhammad Azhar Hairuddin");
 		System.out.println("NIM  : 60200112029");
 		System.out.println("TTL  : Cakke,20 Maret 1994");
@@ -25,25 +25,25 @@ public class Answer {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		biografi();
-		 Scanner in = new Scanner(System.in);
+		biografi(); //BERIKAN PENJELASAN INI APA GUNANYA..^_^
+		 Scanner in = new Scanner(System.in); //BERIKAN PENJELASAN INI APA GUNANYA..^_^
 	     System.out.println("Nilai A : ");
-	     int a=in.nextInt();
+	     int a=in.nextInt(); //BERIKAN PENJELASAN INI APA GUNANYA..^_^
 	     System.out.println("Nilai B : ");
-	     int b=in.nextInt();
+	     int b=in.nextInt(); //BERIKAN PENJELASAN INI APA GUNANYA..^_^
 	     
-	     pilihan();	     
+	     pilihan();	      
 	     System.out.println("Masukkan Pilihan");
-	     int pil=in.nextInt();     
+	     int pil=in.nextInt();      //BERIKAN PENJELASAN INI APA GUNANYA..^_^
 	     
-	     in.close();            
-	     Perhitungan hitung = new Perhitungan(); 
+	     in.close();             //BERIKAN PENJELASAN INI APA GUNANYA..^_^
+	     Perhitungan hitung = new Perhitungan();  //BERIKAN PENJELASAN INI APA GUNANYA..^_^
 		
 		
-		switch (pil){
-			case 1:
-				hitung.tambah(a,b);
-				break;
+		switch (pil){  //BERIKAN PENJELASAN INI APA GUNANYA..^_^
+			case 1: //BERIKAN PENJELASAN INI APA GUNANYA..^_^
+				hitung.tambah(a,b); //BERIKAN PENJELASAN INI APA GUNANYA..^_^
+				break; //BERIKAN PENJELASAN INI APA GUNANYA..^_^
 			case 2:
 				hitung.kurang(a,b);
 				break;
